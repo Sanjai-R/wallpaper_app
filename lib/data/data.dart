@@ -1,19 +1,16 @@
 import 'package:wallpaper_app/data/categories.dart';
 
+String apiKey = "563492ad6f9170000100000193e56301f1e747ebac8e6ca161adb9a7";
+
 List<CategorieModel> getCategories() {
   List<CategorieModel> categories = new List();
   CategorieModel categorieModel = new CategorieModel();
 
   //
-  categorieModel.imgUrl =
-      "https://images.pexels.com/photos/545008/pexels-photo-545008.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
-  categorieModel.categorieName = "Street Art";
-  categories.add(categorieModel);
-  categorieModel = new CategorieModel();
 
   //
   categorieModel.imgUrl =
-      "https://images.pexels.com/photos/704320/pexels-photo-704320.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
+      "https://images.pexels.com/photos/1327405/pexels-photo-1327405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
   categorieModel.categorieName = "Wild Life";
   categories.add(categorieModel);
   categorieModel = new CategorieModel();
@@ -48,6 +45,12 @@ List<CategorieModel> getCategories() {
   categorieModel = new CategorieModel();
 
   //
+  categorieModel.imgUrl =
+      "https://images.pexels.com/photos/545008/pexels-photo-545008.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
+  categorieModel.categorieName = "Street Art";
+  categories.add(categorieModel);
+  categorieModel = new CategorieModel();
+
   categorieModel.imgUrl =
       "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
   categorieModel.categorieName = "Cars";
